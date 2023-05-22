@@ -1,8 +1,8 @@
 import { IonInput, IonItem, IonTitle } from '@ionic/react'
 import { FC } from 'react'
 
-import { tabsRoute } from 'pages/tabs'
 import { NavBtn } from 'shared'
+import { tabsRoute } from '~/shared/config/routing'
 
 interface authProps {}
 

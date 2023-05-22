@@ -1,8 +1,7 @@
 import { FC } from 'react'
 
-import { authRoute } from 'pages/auth/config'
-import { tabsRoute } from 'pages/tabs'
 import { NavBtn } from 'shared'
+import { authRoute } from '~/shared/config/routing/routes'
 
 const Main: FC = ({}) => {
 	return (

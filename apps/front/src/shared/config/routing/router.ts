@@ -1,10 +1,7 @@
 // @/app/routing
 import { createHistoryRouter } from 'atomic-router'
 import { createBrowserHistory, createMemoryHistory } from 'history'
-import { authRoute } from 'pages/auth/config'
-import { mainRoute } from 'pages/main'
-import { todoRoute } from 'pages/tab-todos'
-import { tabsRoute } from 'pages/tabs'
+import { authRoute, mainRoute, tabsRoute, todoRoute } from '~/shared/config/routing/routes'
 
 // 1. Define routes
 const routes = [

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { TabsLayout } from 'pages/tabs/ui/layout'
+import { TabsLayout } from 'entities/tabs'
 
 const Tabs: FC = ({}) => {
 	return <TabsLayout>Tabs</TabsLayout>

@@ -17,7 +17,6 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "incremental": true,
-    "keyofStringsOnly": true,
     "types": [
       "node"
     ],
