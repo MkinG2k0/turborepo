@@ -60,6 +60,7 @@ module.exports = {
 		'react/prop-types': [0], // выключаем проверку на типизацию пропсов
 		'react/display-name': [0], // разрешаем компонетну возращать калбэк , пример "/src/core/providers/*"
 		'no-mixed-spaces-and-tabs': [0], // смешивание табов и пробелов , временно
+		'turbo/no-undeclared-env-vars': [0], // вылкючаем проверку env переменных
 		// WARN
 		'react/jsx-curly-brace-presence': [1, { props: 'always', propElementValues: 'always' }], // фигурные скобки в jsx
 		// 'jsx-quotes': [1, 'prefer-single'], // TODO Err prettier
